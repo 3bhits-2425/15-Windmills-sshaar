@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-public class WindmillManager : MonoBehaviour
+public class Manager : MonoBehaviour
 {
     [SerializeField] private GameObject[] windmills;
     [SerializeField] private Slider[] sliders;
