@@ -438,8 +438,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 213280389}
-        m_TargetAssemblyTypeName: WindmillManager, Assembly-CSharp
-        m_MethodName: UpdateColorSquare
+        m_TargetAssemblyTypeName: Manager, Assembly-CSharp
+        m_MethodName: ColorSquare
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2153,8 +2153,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 213280389}
-        m_TargetAssemblyTypeName: WindmillManager, Assembly-CSharp
-        m_MethodName: LockWindmill
+        m_TargetAssemblyTypeName: Manager, Assembly-CSharp
+        m_MethodName: Lock
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2286,8 +2286,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 213280389}
-        m_TargetAssemblyTypeName: WindmillManager, Assembly-CSharp
-        m_MethodName: LockWindmill
+        m_TargetAssemblyTypeName: Manager, Assembly-CSharp
+        m_MethodName: Lock
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4219,8 +4219,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 213280389}
-        m_TargetAssemblyTypeName: WindmillManager, Assembly-CSharp
-        m_MethodName: LockWindmill
+        m_TargetAssemblyTypeName: Manager, Assembly-CSharp
+        m_MethodName: Lock
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
