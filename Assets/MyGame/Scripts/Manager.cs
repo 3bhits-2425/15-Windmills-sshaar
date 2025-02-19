@@ -11,12 +11,10 @@ public class WindmillManager : MonoBehaviour
     private float[] speeds = new float[3];
     private bool[] isLocked = new bool[3];
     private float maxSpeed = 255f;
-    private float decayRate = 100f;
 
     private void Start()
     {
         squareRenderer = colorSquare.GetComponent<Renderer>();
-
     }
 
     private void Update()
@@ -47,7 +45,7 @@ public class WindmillManager : MonoBehaviour
     {
         if (!isLocked[currentWindmill])
         {
-            float newSpeed = Mathf.Clamp(speeds[currentWindmill] - (deltaTime * decayRate), 0, maxSpeed);
+            float newSpeed = Mathf.Clamp(speeds[currentWindmill] - (deltaTime * 100), 0, maxSpeed);
             speeds[currentWindmill] = newSpeed;
             sliders[currentWindmill].value = newSpeed;
         }
@@ -75,9 +73,9 @@ public class WindmillManager : MonoBehaviour
 
     public void UpdateColorSquare()
     {
-        float redValue = speeds[0] / maxSpeed;
-        float greenValue = speeds[1] / maxSpeed;
-        float blueValue = speeds[2] / maxSpeed;
+        float redValue = speeds[0] ;
+        float greenValue = speeds[1];
+        float blueValue = speeds[2];
         Color newColor = new Color(redValue, greenValue, blueValue);
         squareRenderer.material.color = newColor;
     }
