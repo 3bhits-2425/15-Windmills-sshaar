@@ -34,6 +34,7 @@ Funktionsweise
         - Lock-Button: Sperrt die Geschwindigkeit der aktuellen Windmühle und wechselt zur Steuerung der nächsten Windmühle.
     
     UML-Diagramm:
-    ![15-UML-sshaar](https://github.com/user-attachments/assets/25ed955f-12ad-4c08-b75d-744665e6e756)
+   ![15-UML-sshaar](https://github.com/user-attachments/assets/8680b675-fd3e-4c5a-b9e7-54248d0ad021)
+
 
     
