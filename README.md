@@ -33,4 +33,4 @@ Funktionsweise
         - Leertaste: Erhöht die Geschwindigkeit der aktuellen Windmühle.
         - Lock-Button: Sperrt die Geschwindigkeit der aktuellen Windmühle und wechselt zur Steuerung der nächsten Windmühle.
 
-        
+        ![alt text](15-UML-sshaar-1.png)
