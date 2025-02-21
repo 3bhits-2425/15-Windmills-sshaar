@@ -35,8 +35,6 @@ Funktionsweise
     
     UML-Diagramm:
    ![15-UML-sshaar](https://github.com/user-attachments/assets/8680b675-fd3e-4c5a-b9e7-54248d0ad021)
-
-    Video:
     
 
 
